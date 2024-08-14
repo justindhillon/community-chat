@@ -11,9 +11,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={inter.className} style={{background: "#292929"}}>
         <AppRouterCacheProvider>
-           {children}
+          {children}
         </AppRouterCacheProvider>
       </body>
     </html>
